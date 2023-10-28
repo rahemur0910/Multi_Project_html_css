@@ -1,0 +1,116 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: "IBM Plex Sans", sans-serif;
+}
+body{
+    overflow: hidden;
+}
+/* header section */
+li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 30px;
+    margin-left: 100px;
+    margin-right: 200px;
+}
+header img{
+    scale: 0.85;
+}
+ul{
+    display: flex;
+    align-items: center;
+    gap: 60px;
+}
+ul li a{
+    font-size: 18px;
+    font-weight: 600;
+    color: black;
+}
+a[href="index.html"]{
+    color: #20bc7e;
+}
+/* main section */
+.imain{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 100px;
+    background-image: url("../Assets/stethoscope.png");
+    background-size: 600px;
+    background-repeat: no-repeat;
+    background-position-x: 240px;
+}
+.left h1{
+    font-size: 70px;
+    width: 679px;
+}
+.left p{
+    color: #7c7c7c;
+    font-size: 18px;
+    margin-top: 20px;
+}
+img[alt="topAngle"]{
+    scale: 0.9;
+}
+.ibutton{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 15px;
+}
+.ibutton button{
+    font-size: 25px;
+    padding: 15px 40px;
+    border-radius: 30px;
+    background-color: #20bc7e;
+    border: none;
+    color: white;
+    font-weight: 600;
+}
+img[alt="mouse"]{
+    position: relative;
+    left: 40px;
+    top: 40px;
+    scale: 0.8;
+}
+img[alt="bottomAngle"]{
+    position: relative;
+    left: 20px;
+}
+/* right section of main */
+.right{
+    display: flex;
+    position: relative;
+    right: 382px;
+    top: 90px;
+}
+img[alt="greenBox"]{
+    height: 480px;
+    position: relative;
+    left: 540px;
+    z-index: -1;
+    top: 80px;
+}
+img[alt="yellowBox"]{
+    height: 420px;
+    position: relative;
+    left: 150px;
+    z-index: 0;
+    top: 120px;
+}
+img[alt="doctor"]{
+    height: 650px; 
+    z-index: 1; 
+    position: relative;
+    right: 340px;
+    bottom: 50px;
+}
+

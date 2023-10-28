@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- adding the google font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@200;300;400;500;600;700&family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+    <!-- link to css -->
+    <link rel="stylesheet" href="./Style/style.css">
+    <title>About us</title>
+    <!-- internal css -->
+    <style>
+        .amain{
+            height: 100vh;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+        .amain h1{
+            color: #20BC7E;
+        }
+        .pra{
+            text-align: center;
+            font-size: 18px;
+            font-weight: 400;
+            margin-top: 20px;
+        }
+        .box{
+           display: flex; 
+           align-items: center;
+           justify-content: center;
+           gap: 50px;
+           margin-top: 50px;
+        }
+        .box1{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            border:none;
+            height: 100px;
+            width: 200px;
+            border-radius: 10px;
+            box-shadow: 0px 0px 10px 1px
+            rgba(0, 0,0, 0.8);
+        }
+        .box1 span{
+            color: #20BC7E;
+            font-size: 25px;
+            font-weight: 700;
+        }
+        .box1 p{
+            font-size: 20px;
+            font-weight: 500;
+        }
+    </style>
+</head>
+<body>
+    <!-- header section -->
+    <header>
+        <img src="./Assets/logo (1).png" alt="logo">
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="Aboutus.html">About Us</a></li>
+            <li><a href="Contactus.html">Contact us</a></li>
+        </ul>
+    </header>
+    <!-- main section -->
+    <main class="amain">
+        <h1>Best and Experienced Faculties</h1>
+        <p class="pra"> We had bring the best experts of medical field to provide you the best
+            service as <br> possible. We are trying our best to serve the world with
+            our facilities, so that <br> everyone can have a proper medical facility to
+            avail.</p>
+        <div class="box">
+            <div class="box1">
+                <span>20&plus;</span>
+                <p>Doctors</p>
+            </div>
+            <div class="box1">
+                <span>50&comma;000&plus;</span>
+                <p>Customers</p>
+            </div>
+            <div class="box1">
+                <span>500&plus;</span>
+                <p>Students</p>
+            </div>
+        </div>
+    </main>
+</body>
+</html>

@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- adding the google font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@200;300;400;500;600;700&family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+    <!-- link to css -->
+    <link rel="stylesheet" href="./Style/style.css">
+    <!-- internal css -->
+    <style>
+        .cmain{
+            height: 100vh;
+            width: 100vw;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        .Contactform{
+            display: flex;
+            flex-direction: column;
+            border-radius: 10px;
+            padding: 20px;
+            background-color: whitesmoke;
+            box-shadow: 0px 0px 10px 1px
+            rgba(0, 0,0, 0.8);
+        }
+        .Contactform h2{
+            text-align: center;
+        }
+        .Contactform form{
+            font-size: 16px;
+            font-weight: 500;
+            margin-top: 15px;
+            margin-bottom: 5px;
+        }
+        .Contactform input{
+            border-radius: 8px;
+            border: none;
+            background-color:white;
+            padding:4px;
+            outline: none;
+        }
+        .Contactform textarea{
+            border-radius: 8px;
+            border: none;
+            background-color:white;
+            padding:4px;
+            outline: none;
+            resize: none;
+        }
+        .Contactform button{
+            margin-top: 15px;
+            background-color: #20BC7E;
+            border-radius: 8px;
+            border: none;
+            padding: 10px;
+            color: #ffff;
+            font-size: 18px;
+            font-weight: 600;
+        }
+    </style>
+    <title>Contact us</title>
+</head>
+<body>
+    <!-- header section -->
+    <header>
+        <img src="./Assets/logo (1).png" alt="logo">
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="Aboutus.html">About Us</a></li>
+            <li><a href="Contactus.html">Contact us</a></li>
+        </ul>
+    </header>
+    <!-- main section -->
+    <main class="cmain">
+        <div class="Contactform">
+                <h2>Contact Form</h2>
+                <form action="name">Name</form>
+                <input type="text" placeholder="Enter your name">
+                <form action="email">Email</form>
+                <input type="email" placeholder="Enter your email">
+                <form action="message">Message</form>
+                <textarea name="message" id="message" cols="35" rows="5" placeholder="Enter your message"></textarea>
+                <button>Submit</button>
+        </div>
+    </main>
+</body>
+</html>
